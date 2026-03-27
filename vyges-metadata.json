@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vyges.com/schema/v1/vyges-metadata.schema.json",
+  "x-version": "1.0.0",
+  "name": "mlow-codec",
+  "version": "0.1.0",
+  "description": "IP imported from https://github.com/vyges/mlow-codec-ip",
+  "license": "Apache-2.0",
+  "maturity": "draft",
+  "target": [
+    "asic",
+    "fpga"
+  ],
+  "design_type": [
+    "digital"
+  ],
+  "created": "2026-03-27T21:43:30Z",
+  "updated": "2026-03-27T21:43:30Z",
+  "source": {
+    "type": "git",
+    "url": "https://github.com/vyges/mlow-codec-ip",
+    "commit": "811bcc6bf8c1461810a3171af692b81b277bbb17",
+    "private": false,
+    "indexing": true
+  },
+  "maintainers": [
+    {
+      "name": "Vyges",
+      "email": "team@vyges.com",
+      "github": "vyges"
+    }
+  ],
+  "interfaces": [],
+  "parameters": [],
+  "architecture": {
+    "type": "peripheral",
+    "features": []
+  },
+  "categories": {
+    "primary": "uncategorized",
+    "secondary": [],
+    "tags": []
+  },
+  "trust": {
+    "verification_level": "unknown",
+    "maintained": true
+  },
+  "_note": "AI enrichment failed. Manual population needed.",
+  "meta": {
+    "template": {
+      "generator": "upstream-sync-fallback",
+      "generated_at": "2026-03-27T21:43:30Z"
+    },
+    "schema": {
+      "version": "1.0.0"
+    }
+  }
+}
