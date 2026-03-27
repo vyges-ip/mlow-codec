@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/vyges/mlow-codec-ip
+  branch: main
+  commit: 811bcc6bf8c1461810a3171af692b81b277bbb17
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
