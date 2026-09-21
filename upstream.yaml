@@ -3,7 +3,7 @@ upstream:
   type: "standalone"
   repo: https://github.com/vyges/mlow-codec-ip
   branch: main
-  commit: 811bcc6bf8c1461810a3171af692b81b277bbb17
+  commit: 54bd7be7fa5a25f1435acfc7ddcd4760e1d3e038
 import:
   rtl:
     - path: "rtl"
@@ -15,5 +15,4 @@ import:
 license:
   spdx: Apache-2.0
   file: LICENSE
-
 metadata_locked: true
